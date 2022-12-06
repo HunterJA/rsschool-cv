@@ -8,10 +8,10 @@ To describe about me, I always open to new challenges and opportunities. My prio
 ## Skills
 * JavaScript
 ## Code example
-**Area of an arrow from CODWARS**
+**Area of an arrow from CODEWARS**
 
 > An arrow is formed in a rectangle with sides a and b by joining the bottom corners to the midpoint of the top edge and the centre of the rectangle. a and b are integers and > 0. Write a function which returns the area of the arrow.
-
+![codewars](https://ibb.co/9YL4Y7P "2")
 **Answer:**
 > function arrowArea(a,b) { return (a * b) / 4; }
 ## Courses
