@@ -1,13 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+<link rel="stylesheet" href="./style.css">
 <head>
   <meta charset="utf-8">
   <title>CV</title>
   <meta name="description" content="CV">
   <meta name="author" content="SitePoint">
-  <link rel="stylesheet" href="styles.css?v=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="../rsschool-cv/assets/icon-cv-11.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="./img/704327163.jpeg" alt="Avatar" width="272" height="272" class="rightpic">
+	<header class="header">
+		<div class="container header-container"></div>
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container main-container">
+			<img src="./assets/IMG_3637.JPG" alt="Avatar" width="272" height="272" class="image">
+			<section class="section" id = "profile"><h1 class="section-title">Sultanbek Auyesbayev</h1></section>
+			<section class="section" id = "contacts"><h2 class="section-title">Contacts</h2>
+				<ul class="contacts-list">
+					<li>Phone: 87083108808</li>
+					<li>E-mail: qs.sultanbek@gmail.com</li>
+					<li>Discord: Mysterio(@HunterJA)</li>
+				</ul>
+			</section>
+			<section class="section" id = "summary"><h2 class="section-title">About me</h2>
+				<p class="summary-info">To describe about me, I always open to new challenges and opportunities. My priority for now, is to qualify new profession and try my best in frontend development.</p><p>As a person who works as a project management in telecommunication company I see clear perspectives in this field. My goals is to be hired as software engineer in international IT company.</p>
+			</section>
+			<section class="section" id = "skills"><h2 class="section-title">Skills</h2>
+				<ul class="skills-info">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+				</ul>
+			</section>
+			<section class="section" id = "code"><h2 class="section-title">Code example</h2>
+				<p>**Exercise: <span class="code-example">Area of an arrow</span> (from CODEWARS)**</p>
+				<p>An arrow is formed in a rectangle with sides a and b by joining the bottom corners to the midpoint of the top edge and the centre of the rectangle. a and b are integers and > 0. Write a function which returns the area of the arrow.</p>
+				<p>Answer: <span class="code-example">function arrowArea(a,b) { return (a * b) / 4; }</span></p>
+			</section>
+			<section class="section" id = "courses"><h2 class="section-title">Courses</h2>
+				<a href="https://localcoding.us/" class="courses-link"><span class="courses-name">PASV- </span>JavaScript Syntax course</a>
+			</section>
+			<section class="section" id = "projects"><h2 class="section-title">Projects</h2>
+				<a href="https://hunterja.github.io/rsschool-cv-old/" class="projects-link">Curriculum Vitae</a>
+			</section>
+			<section class="section" id = "education"><h2 class="section-title">Education</h2>
+				<p>L.N. Gumilyov Eurasian National University</p>
+			</section>
+			<section class="section" id = "english"><h2 class="section-title">English</h2>
+				<p>B2- Upper-Intermediate (IELTS 6.5)</p>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container footer-container">
+		</div>
+	</footer>
 </body>
 </html>
